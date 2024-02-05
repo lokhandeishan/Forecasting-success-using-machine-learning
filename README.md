@@ -2,7 +2,9 @@
 
 <h2>Description</h2>
 
-This repository contains a machine learning project focused on predicting the success of restaurants. The project includes data preprocessing, feature engineering, model training, and evaluation.
+Running a restaurant business is fraught with risks, as numerous factors come into play, influencing the fate of the establishment. This project delves deep into the dynamics of the restaurant industry within the Bangalore metropolitan area, shedding light on pivotal determinants that can make or break a restaurant's success. Future restaurant owners and entrepreneurs can turn to this comprehensive notebook for valuable insights, enabling them to better understand the intricacies of the restaurant business and formulate effective operational strategies.
+
+Contained within this repository is a machine learning project, meticulously crafted to predict the success of restaurants. The project encompasses critical stages, including data preprocessing, feature engineering, model training, and thorough evaluation
 
 <h2>Project Overview</h2>
 
