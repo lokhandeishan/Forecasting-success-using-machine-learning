@@ -14,32 +14,67 @@ In this project, we leveraged data from a delivery application to predict the li
 - Visualization of results using libraries like Seaborn and Plotly.
 
 <h2>Project Walkthrough</h2>
- <img width="1002" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/54c8467e-7a77-4553-9a24-553f3faec83e"> 
- 
- <img width="989" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/5ceb6871-9cfe-4935-8f11-f2d7e978b03b"> 
+ <br />
 
- 
- <img width="694" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/9d76bed3-d561-4295-85d0-49c239e871ca"> 
+<p align="center">
+<strong>First, we will see what types of restaurants are present</strong> <br />
+<img width="1002" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/54c8467e-7a77-4553-9a24-553f3faec83e"> 
+<br />
+<br />
 
- 
- <img width="672" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/d0e7d362-e0a5-434b-93e9-14497145b991"> 
- 
- 
- <img width="766" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/686e15a2-8a50-414c-a05e-7453886d6763"> 
- 
- <img width="953" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/a016768c-99cd-4884-8e67-ea11bbeccf43"> 
- 
- <img width="962" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/62b84069-64a8-44e4-9007-a6156238786a"> 
- 
- <img width="395" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/3dceb34c-80d2-4e04-bdfa-8407ac418b31"> 
- 
- <img width="637" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/1eae2003-ccfd-48d2-958a-b4c99b7dd69a"> 
- 
- <img width="447" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/58eaaa39-ce2a-4dd8-9019-56a4089f2e69"> 
- 
- <img width="231" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/13d75912-9b69-4cc0-a214-84e1897d6906"> 
+<p align="center">
+<strong>Based on the previous chart, we can see that most of them can be clustered into 2 types. Let's see their composition when clustered.</strong> <br />
+<img width="989" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/5ceb6871-9cfe-4935-8f11-f2d7e978b03b"> 
+<br />
+<br />
 
+<p align="center">
+<strong>Here, we see the most and least popular restaurants based on votes and the average vote count.</strong> <br />
+<img width="694" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/9d76bed3-d561-4295-85d0-49c239e871ca"> 
+<br />
+<br />
 
+<p align="center">
+<strong>Now, we see the most and least expensive restaurants and the mean cost of all the restaurants in Bangalore.</strong> <br />
+<img width="672" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/d0e7d362-e0a5-434b-93e9-14497145b991"> 
+<br />
+<br />
+
+<p align="center">
+<strong>Now, we need to know which restaurant has a booking service, and subsequently, let's see the binary distribution of them.</strong> <br />
+<img width="766" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/686e15a2-8a50-414c-a05e-7453886d6763"> 
+<br />
+<br />
+
+<p align="center">
+<strong>Now, we will see the booking acceptance ratio.</strong> <br />
+<img width="953" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/a016768c-99cd-4884-8e67-ea11bbeccf43"> 
+<br />
+<br />
+
+<p align="center">
+<strong>This image shows us how the restaurants are placed in Bangalore. Most of them are located in the center of the city.</strong> <br />
+<img width="962" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/62b84069-64a8-44e4-9007-a6156238786a"> 
+<br />
+<br />
+
+<p align="center">
+<strong>Word cloud to see the most popular dishes based on reviews.</strong> <br />
+<img width="395" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/3dceb34c-80d2-4e04-bdfa-8407ac418b31"> 
+<br />
+<br />
+
+<p align="center">
+<strong>Word cloud to see the most frequent word used in reviews.</strong> <br />
+<img width="637" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/1eae2003-ccfd-48d2-958a-b4c99b7dd69a"> 
+<br />
+<br />
+
+<p align="center">
+<strong>Now, this shows us the ratio of good or bad restaurants, based on the rating threshold that we set (4.75).</strong> <br />
+<img width="447" alt="image" src="https://github.com/lokhandeishan/Forecasting-success-using-machine-learning/assets/157990694/58eaaa39-ce2a-4dd8-9019-56a4089f2e69"> 
+<br />
+<br />
 
 
 
