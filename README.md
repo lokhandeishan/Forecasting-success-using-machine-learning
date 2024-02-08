@@ -102,12 +102,6 @@ We assessed several machine learning models and evaluated their performance usin
 
 The Decision Tree model achieved the highest accuracy of approximately 82.77% among the models.
 
-<h2>Usage</h2>
-
-You can explore the code and run the models using the provided Jupyter Notebook or Python script.
-
-Feel free to clone this repository and use it as a reference for similar prediction projects.
-
 <h2>Libraries Used</h2>
 
 - pandas
